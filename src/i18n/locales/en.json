@@ -478,6 +478,7 @@
     "component_group_desc": "The suppliers higher-level namespace, group, or vendor identifier",
     "component_hash": "Component Hash",
     "component_hash_desc": "Specifies the observed hash value of the component using the preceding algorithm",
+    "component_scope": "Component Scope",
     "component_identifier_desc": "Identifies the component by Package URL (PURL) or CPE. If the version type is 'Exact', the PURL or CPE must contain the version. If a range is specified, version information in the identifier will be ignored.",
     "component_library": "Library",
     "component_license_expression_desc": "Specifies license information for the component in the form of an SPDX expression",
@@ -1178,6 +1179,12 @@
     "security": "Security Violations",
     "total": "Total Violations",
     "warns": "Violation Warnings"
+  },
+  "scope": {
+    "required": "Required",
+    "optional": "Optional",
+    "excluded": "Excluded",
+    "unassigned": "Unassigned"
   },
   "severity": {
     "critical": "Critical",
